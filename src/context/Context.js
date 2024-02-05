@@ -21,7 +21,6 @@ const Context = ({ children }) => {
     cart: [],
     
   });
-
   const [productState, productDispatch] = useReducer(productReducer, {
     byStock: false,
     byFastDelivery: false,
